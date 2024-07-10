@@ -45,8 +45,8 @@
     width: 1440px;
     height: 652px;
     margin: 0 auto;
-    border: 6px dashed rgb(177, 173, 173);
     margin-top: 47px;
+    
 }
 
 .first-section-container{
@@ -55,17 +55,21 @@
     background-image: url(./assets/Hero-bg.png);
     background-size: auto;
     background-repeat: no-repeat;
+    align-items: center;
+    opacity: 0.9;
 }
 .first-img{
    margin-left: 580px;
    margin-top: 26px;
-}
+  align-items: center;
+} 
 
 .first-section-container h3{
     font-size: 40px;
     color: rgb(13, 19, 33);
     font-weight: 800;
     margin-left: 221px;
+    align-items: center;
 }
 .dev{
     font-size: 40px;
@@ -93,6 +97,8 @@
     border-radius: 6px;
     margin-left: 600px;
     margin-top: 32px;
+    align-items: center;
+    border: none;
 }
 /* second-section styling*/
 
@@ -103,12 +109,11 @@
     margin-top: 74px;
     margin-bottom: 48px;
     padding: 80px 97px;
-    background-color:rgba(13, 19, 33, 0.02);
+    background-color:rgba(5, 34, 102, 0.08);
 }
 .second-section-container{
     width: 946px;
     height: 1245px;
-    
 }
 
 .second-section-container h3{
@@ -118,6 +123,7 @@
     margin-left: 265px;
     line-height: 27px;
     margin-bottom: 24px;
+    align-items: center;
 }
 .second-section-container p{
     color: rgb(82, 82, 85);
@@ -125,6 +131,7 @@
     font-weight: 400;
     margin-left: 47px;
     margin-top: 24px;
+    align-items: center;
 }
 
 /* Second-section-frame-1 styling */
@@ -133,7 +140,7 @@
     height:336px;
     margin-top: 40px;
     display: flex;
-   
+   background-color: rgb(248, 250, 252);
  }
  .frame-left{
      width: 580px;
@@ -152,6 +159,7 @@
     text-align: left;
     margin-right: 50px;
     margin-left: 48px;
+    margin-top: 25px;
  }
  
  .frame-description {
@@ -189,6 +197,8 @@
     height:336px;
     margin-top: 40px;
     display: flex;
+    background-color:aliceblue;
+   
 }
 .frame-2-left{
     width: 260px;
@@ -201,6 +211,7 @@
     height: 220px ;
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
 }
 .frame-2-right h1{
     color: rgba(13, 19, 33, 0.7);
@@ -209,6 +220,7 @@
     text-align: left;
     margin-right: 50px;
     margin-left: 48px;
+    align-items: center;
 }
 .frame-2-description{
     color: rgb(118, 119, 122);
@@ -305,7 +317,7 @@ text-decoration-line: underline;
     height: 300px;
     padding: 40px;
     margin: 0 24px;
-    background-color: rgba(241, 226, 128, 0.4);
+    background-color:rgba(240, 209, 12, 0.3)
 }
 .frame-js img{
     margin-bottom: 15px;
@@ -345,9 +357,7 @@ text-decoration-line: underline;
 font-family: Work Sans;
 font-size: 16px;
 font-weight: 400;
-
 text-align: center;
-
 margin-bottom: 18px;
 }
 
@@ -395,7 +405,7 @@ text-align: center;
     background: rgba(13, 19, 33, 0.1);
 }
 
-.footer-container{
+#footer-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
