@@ -1,28 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-   font-family: "Azeret Mono";
+
+.azeret-mono-normal {
+        font-family: "Azeret Mono";
+        font-optical-sizing: auto;
+        font-style: normal;
 }
 /* heading styling */
 .head{
- display: flex;
+    width: 1440px;
+    display: flex;
  flex-direction: row;
  justify-content: space-between;
+ margin: 0 auto;
  align-items: center;
- margin-top: 20px;
+ margin-top: 47px;
 }
-.head h4{
+.head h5{
     color: rgb(0, 3, 9);
     font-family: Azeret Mono;
-    font-size: 28px;
-    font-weight: 600;
-    text-align: left;
-    margin-left: 60px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 47px;
 }
 .head button{
     width: 228px;
@@ -32,7 +36,7 @@ body{
     text-align: center;
     margin-right: 60px;
     border-radius: 4px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 /* main section styling */
@@ -41,39 +45,43 @@ body{
     width: 1440px;
     height: 652px;
     margin: 0 auto;
-    border: 5px dashed rgb(139, 129, 129);
+    border: 6px dashed rgb(177, 173, 173);
+    margin-top: 47px;
 }
 
 .first-section-container{
     max-width: 100%;
     height: 100%;
     background-image: url(./B10A1-Challenge-Begins/assets/Hero-bg.png);
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 .first-img{
-   margin-left: 610px;
+   margin-left: 580px;
    margin-top: 26px;
 }
 
-.first-section-container h2{
-    font-size: 35px;
+.first-section-container h3{
+    font-size: 40px;
     color: rgb(13, 19, 33);
     font-weight: 800;
-    margin-left: 225px;
+    margin-left: 221px;
 }
 .dev{
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(13, 19, 33);
     font-weight: 800;
-    margin-left: 360px;
+    margin-left: 350px;
 }
 .first-section-container p{
     color: rgb(82, 82, 85);
     font-size: 16px;
     font-weight: 400;
-    margin-left: 294px;
+    margin-left: 290px;
     margin-top: 24px;
+}
+.dev-p{
+    margin-left: 330px;
 }
 .btn{
     width: 208px;
@@ -83,7 +91,7 @@ body{
     color: white;
     background-color: black;
     border-radius: 6px;
-    margin-left: 640px;
+    margin-left: 600px;
     margin-top: 32px;
 }
 /* second-section styling*/
@@ -91,8 +99,162 @@ body{
 .second-section{
     width: 1140px;
     height: 1393px;
-    padding: 80px 97px;
-    border: 2px solid black;
     margin: 0 auto;
     margin-top: 74px;
+    margin-bottom: 48px;
+    padding: 80px 97px;
+}
+.second-section-container{
+    width: 946px;
+    height: 1245px;
+    
+}
+
+.second-section-container h3{
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+    margin-left: 265px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+.second-section-container p{
+    color: rgb(82, 82, 85);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 47px;
+    margin-top: 24px;
+}
+
+/* Second-section-frame-1 styling */
+.second-section-frame-1{
+    width: 946px;
+    height:336px;
+    margin-top: 40px;
+    display: flex;
+   
+ }
+ .frame-left{
+     width: 580px;
+     height: 220px ;
+   
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center;
+     align-items: center; */
+}
+ 
+ .frame-left h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 48px;
+ }
+ 
+ .frame-description {
+    color: rgb(118, 119, 122);
+    font-size: 16px;
+    font-weight: 400;
+   margin-right: 180px;
+   text-align: left;
+ }
+ #btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(91, 88, 88);
+    border: 1px solid black;
+    
+    margin-left: 48px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+ }
+ .frame-right{
+    width: 260px;
+    height: 217px;
+   margin-left: 80px;
+   margin-top: 10px;
+ }
+/* second-section-frame-2 styling */
+.second-section-frame-2{
+    width: 946px;
+    height:336px;
+    margin-top: 40px;
+    display: flex;
+}
+.frame-2-left{
+    width: 260px;
+    height: 217px;
+   margin-left: 48px;
+   margin-top: 10px;
+}
+.frame-2-right{
+    width: 580px;
+    height: 220px ;
+    display: flex;
+    flex-direction: column;
+}
+.frame-2-right h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 48px;
+}
+.frame-2-description{
+    color: rgb(118, 119, 122);
+    font-size: 16px;
+    font-weight: 400;
+   margin-right: 180px;
+   text-align: left;
+}
+/* second-section frame-3 styling */
+/* same as frame-1 */
+
+/* Third-Section styling */
+.third-section{
+    width: 1140px;
+    height: 775px;
+     margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 150px;
+}
+.inspiration h1{
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+    margin-left: 425px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+.inspiration p{
+    color: rgb(118, 119, 122);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 48px;
+}
+.frame-youtube{
+    position: static;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    margin:48px 0;
+    border: 1px solid rgb(200, 192, 192);
+    border-radius: 16px;
+}
+iframe{
+    box-sizing: border-box;
+     padding: 32px;
+     border-radius: 50px;
 }
