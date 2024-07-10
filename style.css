@@ -103,6 +103,7 @@
     margin-top: 74px;
     margin-bottom: 48px;
     padding: 80px 97px;
+    background-color:rgba(13, 19, 33, 0.02);
 }
 .second-section-container{
     width: 946px;
@@ -257,4 +258,55 @@ iframe{
     box-sizing: border-box;
      padding: 32px;
      border-radius: 50px;
+}
+/* Fourth-Section styling */
+.fourth-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+.framework-container{
+display: flex;
+justify-content: space-between;
+}
+.frame-html {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+    background-color: rgba(255, 76, 30, 0.1);
+}
+.frame-html img{
+    margin-bottom: 15px;
+}
+a{
+color: rgb(13, 19, 33);
+margin-top: 30px;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+text-decoration-line: underline;
+}
+.frame-css{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+   background-color:  rgba(0, 76, 232, 0.1);
+}
+.frame-css img{
+    margin-bottom: 15px;
+}
+.frame-js{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0 24px;
+    background-color: rgba(241, 226, 128, 0.4);
+}
+.frame-js img{
+    margin-bottom: 15px;
 }
