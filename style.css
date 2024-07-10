@@ -23,7 +23,7 @@
 .head h5{
     color: rgb(0, 3, 9);
     font-family: Azeret Mono;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 800;
     text-align: center;
     margin-left: 47px;
@@ -309,4 +309,78 @@ text-decoration-line: underline;
 }
 .frame-js img{
     margin-bottom: 15px;
+}
+
+/* fifth-section styling */
+
+.fifth-section{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image:url(./assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+}
+
+
+.support-section h1{
+    color: rgb(255, 255, 255);
+  font-size: 36px;
+    font-weight: 700;
+   text-align: center;
+    margin-bottom: 14px ;
+}
+
+.support-section p{
+ color: rgb(159, 158, 158);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+
+margin-bottom: 18px;
+}
+
+.btn-content{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+   color: rgb(176, 170, 170);
+   text-align: left;
+    background: rgb(255, 255, 255);
+   font-weight: 400;
+ Font-size: 16px;
+}
+.btn-2{
+    position: static;
+    width: 120px;
+    height: 58px;
+   padding: 17px 20px 17px 20px;
+   margin: 0px 16px;
+   border-radius: 8px;
+   color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
 }
