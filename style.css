@@ -384,3 +384,28 @@ font-size: 20px;
 font-weight: 600;
 text-align: center;
 }
+
+/* footer section styling */
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.1);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-container h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
